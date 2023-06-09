@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset=utf-8 />
+	<title>MNIST Check</title>
+	
+	<script type="text/javascript" src="/build/build.js"></script>
+	<style>
+
+	html, body 
+	{
+		height: 95%;
+		width: 95%;
+		text-align: center;
+		margin-left: 2.5%;
+	}
+
+	.digitTitle 
+	{
+		font-weight: 700;
+		font-size: 1.7em;
+		color: #900;
+	}
+
+	.addMoreButton 
+	{
+		display: inline-block;
+		font-weight: 700;
+		font-size: 1.7em;
+		cursor:pointer;
+		/*color: #333;*/
+		text-decoration: none;
+		color: #900;
+		/*text-transform: uppercase;*/
+		/*letter-spacing: 2px;*/
+		padding: 10px 20px;
+		border: 3px solid #900;
+		margin: 10px 0 0;
+		outline: none;
+	}
+
+	</style>
+</head>
+<body>
+	<div id="digitContainers"></div>
+	<div id="addMore" class="addMoreButton">Add More Images</div>
+	<script type="text/javascript">
+
+		var parseView = require('parse-view');
+		var Element = require('el.js');
+
+		//create our new parse view object
+		var pv = new parseView();
+
+		function addDataToScreen(data)
+		{
+			var fullContainer = document.getElementById("digitContainers");
+
+			for(var digit in data)
+			{
+				//grab the digit's image data
+				var digitData = data[digit];
+
+				var digitContainer = document.getElementById(digit);
+
+				if(!digitContainer)
+				{
+					//create the element -- give it the current ID
+					digitContainer = Element('div', {id: digit});
+
+					//add that object to our global container
+					fullContainer.appendChild(Element('div', {class: "digitTitle"}, 'Digit ' + digit));
+					fullContainer.appendChild(digitContainer);
+					fullContainer.appendChild(Element('br'));
+				}
+
+				for(var i=0; i < digitData.length; i++)
+				{
+					//grab the bitmap URI
+					var digitURI = pv.imageArrayToDataURL(digitData[i]);
+					
+					//set it as our source in a new image element
+					var digitImg = Element('img', {src: digitURI});
+
+					//then add it
+					digitContainer.appendChild(digitImg);
+				}
+			}
+		}
+		var maxChunks = 20;
+		var currentDataChunk = 0;
+
+		function chunkJSONName()
+		{
+			return "/data/" + currentDataChunk + ".json";
+		}
+
+		function loadNextDataChunk(finished)
+		{
+			if(currentDataChunk >= maxChunks)
+			{
+				console.log("Maximum data chunks reached");
+				return;
+			}
+
+			//try to load something
+			pv.loadDigitData(chunkJSONName(), function(err, data)
+			{
+				//log the args coming back
+				if(err)
+				{
+					console.error(err);
+					return;
+				}
+				//otherwise, let's try and do something with this guy
+				addDataToScreen(data);
+
+				//done with this data chunk
+				currentDataChunk++;
+				
+				//optional to let us know we're done
+				if(finished)
+					 finished();
+			});
+		}
+
+		//start the process by loading stuff
+		loadNextDataChunk();
+
+		document.getElementById('addMore').addEventListener('click', function()
+		{
+			//on click, add more data
+			loadNextDataChunk(function()
+				{
+					console.log("Data chunk loaded");
+				});
+
+
+		})
+
+
+
+	
+	</script>
+
+
+
+
+</body>
+</html>

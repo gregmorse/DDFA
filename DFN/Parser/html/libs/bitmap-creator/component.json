@@ -1,0 +1,13 @@
+{
+  "name": "bitmap-creator",
+  "description": "Handles turning artifact into a picture",
+  "version": "0.0.1",
+  "dependencies": {
+  },
+  "scripts": [
+    "generateBitmap.js",
+    "base64.js"
+  ],
+  "main": "generateBitmap.js",
+  "license": ["MIT"]
+}

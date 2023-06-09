@@ -1,0 +1,41 @@
+C:\Users\Greg\Desktop\various\school\DFN - git\DFN\bin\x64\Debug\DFN.exe.config
+C:\Users\Greg\Desktop\various\school\DFN - git\DFN\bin\x64\Debug\DFN.exe
+C:\Users\Greg\Desktop\various\school\DFN - git\DFN\bin\x64\Debug\DFN.pdb
+C:\Users\Greg\Desktop\various\school\DFN - git\DFN\bin\x64\Debug\DFNLibrary.dll
+C:\Users\Greg\Desktop\various\school\DFN - git\DFN\bin\x64\Debug\MNISTDataLibrary.dll
+C:\Users\Greg\Desktop\various\school\DFN - git\DFN\bin\x64\Debug\nunit.framework.dll
+C:\Users\Greg\Desktop\various\school\DFN - git\DFN\bin\x64\Debug\SharpNeatLib.dll
+C:\Users\Greg\Desktop\various\school\DFN - git\DFN\bin\x64\Debug\Newtonsoft.Json.dll
+C:\Users\Greg\Desktop\various\school\DFN - git\DFN\bin\x64\Debug\log4net.dll
+C:\Users\Greg\Desktop\various\school\DFN - git\DFN\bin\x64\Debug\DFNLibrary.pdb
+C:\Users\Greg\Desktop\various\school\DFN - git\DFN\bin\x64\Debug\MNISTDataLibrary.pdb
+C:\Users\Greg\Desktop\various\school\DFN - git\DFN\bin\x64\Debug\SharpNeatLib.pdb
+C:\Users\Greg\Desktop\various\school\DFN - git\DFN\bin\x64\Debug\SharpNeatLib.xml
+C:\Users\Greg\Desktop\various\school\DFN - git\DFN\bin\x64\Debug\nunit.framework.xml
+C:\Users\Greg\Desktop\various\school\DFN - git\DFN\bin\x64\Debug\Newtonsoft.Json.xml
+C:\Users\Greg\Desktop\various\school\DFN - git\DFN\bin\x64\Debug\log4net.xml
+C:\Users\Greg\Desktop\various\school\DFN - git\DFN\obj\x64\Debug\DFN.csprojResolveAssemblyReference.cache
+C:\Users\Greg\Desktop\various\school\DFN - git\DFN\obj\x64\Debug\DFN.exe
+C:\Users\Greg\Desktop\various\school\DFN - git\DFN\obj\x64\Debug\DFN.pdb
+C:\Users\Greg\Desktop\various\school\DFN - public\DFN\bin\x64\Debug\DFN.exe.config
+C:\Users\Greg\Desktop\various\school\DFN - public\DFN\obj\x64\Debug\DFN.exe
+C:\Users\Greg\Desktop\various\school\DFN - public\DFN\obj\x64\Debug\DFN.pdb
+C:\Users\Greg\Desktop\various\school\DFN - public\DFN\obj\x64\Debug\DFN.csprojResolveAssemblyReference.cache
+C:\Users\Greg\Desktop\various\school\DFN - public\DFN\bin\x64\Debug\DFN.exe
+C:\Users\Greg\Desktop\various\school\DFN - public\DFN\bin\x64\Debug\DFN.pdb
+C:\Users\Greg\Desktop\various\school\DFN - public\DFN\bin\x64\Debug\DFNLibrary.dll
+C:\Users\Greg\Desktop\various\school\DFN - public\DFN\bin\x64\Debug\MNISTDataLibrary.dll
+C:\Users\Greg\Desktop\various\school\DFN - public\DFN\bin\x64\Debug\nunit.framework.dll
+C:\Users\Greg\Desktop\various\school\DFN - public\DFN\bin\x64\Debug\SharpNeatLib.dll
+C:\Users\Greg\Desktop\various\school\DFN - public\DFN\bin\x64\Debug\Newtonsoft.Json.dll
+C:\Users\Greg\Desktop\various\school\DFN - public\DFN\bin\x64\Debug\log4net.dll
+C:\Users\Greg\Desktop\various\school\DFN - public\DFN\bin\x64\Debug\DFNLibrary.pdb
+C:\Users\Greg\Desktop\various\school\DFN - public\DFN\bin\x64\Debug\MNISTDataLibrary.pdb
+C:\Users\Greg\Desktop\various\school\DFN - public\DFN\bin\x64\Debug\SharpNeatLib.pdb
+C:\Users\Greg\Desktop\various\school\DFN - public\DFN\bin\x64\Debug\SharpNeatLib.xml
+C:\Users\Greg\Desktop\various\school\DFN - public\DFN\bin\x64\Debug\nunit.framework.xml
+C:\Users\Greg\Desktop\various\school\DFN - public\DFN\bin\x64\Debug\Newtonsoft.Json.xml
+C:\Users\Greg\Desktop\various\school\DFN - public\DFN\bin\x64\Debug\log4net.xml
+C:\Users\Greg\Desktop\various\school\DDFA-Official Release\DFN\bin\x64\Debug\DFN.exe.config
+C:\Users\Greg\Desktop\various\school\DDFA-Official Release\DFN\obj\x64\Debug\DFN.exe
+C:\Users\Greg\Desktop\various\school\DDFA-Official Release\DFN\obj\x64\Debug\DFN.pdb

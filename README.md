@@ -1,2 +1,0 @@
-# DDFA
-DDFA v1

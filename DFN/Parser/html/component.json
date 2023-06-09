@@ -1,0 +1,19 @@
+{
+  "name": "parse-view",
+  "description": "Displaying parsed images in html.",
+  "version": "0.0.1",
+  "local" : ["bitmap-creator"],
+  "paths" : ["libs"],
+  "dependencies": {
+    "visionmedia/superagent" : "*",
+    "optimuslime/el.js" : "*"
+  },
+  "scripts": [
+    "parse-view.js"
+  ],
+  "main": "parse-view.js",
+  "styles": [
+    "css/parse-view.css"
+  ],
+  "license": ["MIT"]
+}

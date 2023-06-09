@@ -1,0 +1,16 @@
+C:\Users\Greg\Desktop\various\school\DFN - git\DFN\DFNLibrary\bin\Release\DFNLibrary.dll
+C:\Users\Greg\Desktop\various\school\DFN - git\DFN\DFNLibrary\bin\Release\DFNLibrary.pdb
+C:\Users\Greg\Desktop\various\school\DFN - git\DFN\DFNLibrary\bin\Release\MNISTDataLibrary.dll
+C:\Users\Greg\Desktop\various\school\DFN - git\DFN\DFNLibrary\bin\Release\SharpNeatLib.dll
+C:\Users\Greg\Desktop\various\school\DFN - git\DFN\DFNLibrary\bin\Release\Newtonsoft.Json.dll
+C:\Users\Greg\Desktop\various\school\DFN - git\DFN\DFNLibrary\bin\Release\log4net.dll
+C:\Users\Greg\Desktop\various\school\DFN - git\DFN\DFNLibrary\bin\Release\MNISTDataLibrary.pdb
+C:\Users\Greg\Desktop\various\school\DFN - git\DFN\DFNLibrary\bin\Release\SharpNeatLib.pdb
+C:\Users\Greg\Desktop\various\school\DFN - git\DFN\DFNLibrary\bin\Release\SharpNeatLib.xml
+C:\Users\Greg\Desktop\various\school\DFN - git\DFN\DFNLibrary\bin\Release\Newtonsoft.Json.xml
+C:\Users\Greg\Desktop\various\school\DFN - git\DFN\DFNLibrary\bin\Release\log4net.xml
+C:\Users\Greg\Desktop\various\school\DFN - git\DFN\DFNLibrary\obj\Release\DFNLibrary.csprojResolveAssemblyReference.cache
+C:\Users\Greg\Desktop\various\school\DFN - git\DFN\DFNLibrary\obj\Release\DFNLibrary.dll
+C:\Users\Greg\Desktop\various\school\DFN - git\DFN\DFNLibrary\obj\Release\DFNLibrary.pdb
+C:\Users\Greg\Desktop\various\school\DFN - git\DFN\DFNLibrary\bin\Release\SimpleSVM.dll
+C:\Users\Greg\Desktop\various\school\DFN - git\DFN\DFNLibrary\bin\Release\SimpleSVM.pdb

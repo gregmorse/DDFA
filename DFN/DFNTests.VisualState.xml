@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisualState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShowCheckBoxes="false">
+  <TopNode>[0-1000]C:\Users\Paul\Eplex\Feature\featureneat\DFN\DFNTests.nunit</TopNode>
+  <SelectedNode>[0-1008]DFNTests.PerceptronTests.XORBackpropTest</SelectedNode>
+  <ExcludeCategories>false</ExcludeCategories>
+  <Nodes>
+    <Node UniqueName="[0-1000]C:\Users\Paul\Eplex\Feature\featureneat\DFN\DFNTests.nunit" Expanded="true" />
+    <Node UniqueName="[0-1009]C:\Users\Paul\Eplex\Feature\featureneat\DFN\DFNTests\bin\Debug\DFNTests.exe" Expanded="true" />
+    <Node UniqueName="[0-1010]DFNTests" Expanded="true" />
+    <Node UniqueName="[0-1001]DFNTests.NoveltyTests" Expanded="true" />
+    <Node UniqueName="[0-1004]DFNTests.PerceptronTests" Expanded="true" />
+  </Nodes>
+</VisualState>

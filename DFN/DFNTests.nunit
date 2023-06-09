@@ -1,0 +1,8 @@
+﻿<NUnitProject>
+  <Settings activeconfig="Debug" />
+  <Config name="Debug" binpathtype="Auto">
+    <assembly path="DFNTests\bin\Debug\DFNTests.exe" />
+    <assembly path="SharpNeatLib\bin\Debug\SharpNeatLib.dll" />
+  </Config>
+  <Config name="Release" binpathtype="Auto" />
+</NUnitProject>

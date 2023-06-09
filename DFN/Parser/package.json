@@ -1,0 +1,24 @@
+{
+  "name": "node-mnist",
+  "version": "0.0.1",
+  "description": "Parsing mnist database for custom neural net mnist behavior",
+  "keywords": [
+    "Evolution",
+    "Artificial Neural Networks"
+  ],
+  "author": {
+    "name": "Paul Szerlip",
+    "email": "PSzerlip@cs.ucf.edu",
+    "url": "http://winark.org"
+  },
+  "main": "lib/minst-parser.js",
+  "bugs": "https://github.com/OptimusLime/node-mnist/issues",
+  "license": "MIT",
+  "dependencies": {
+   "component-emitter" : "*"
+  },
+  "devDependencies": {
+    "mocha": "1.1.x",
+    "should": "1.1.x"
+  }
+}
